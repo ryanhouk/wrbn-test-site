@@ -23,8 +23,8 @@
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
 
-.shadow-large {
-    box-shadow: 0 16px 16px 0 rgba(15,0,104,0.06);
+.box-shadow {
+    box-shadow: 0 16px 24px 0 rgba(15,0,104,0.06);
 }
 
 .v-align-middle {
