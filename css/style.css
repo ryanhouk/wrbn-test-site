@@ -2,15 +2,7 @@
 
 @media (max-width: 576px) { 
     h1.display-3 {font-size: 2.5rem;}
-}
-
-
-/* SHAPE MASK */
-
-.angle-mask {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
-
+    h1.display-4 {font-size: 2.5rem;}
 }
 
 
@@ -22,8 +14,41 @@
 
 
 
-/* CUSTOM STYLES */
+/* MISC */
+
+.angle-mask {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+
+}
 
 .shadow-large {
     box-shadow: 0 16px 16px 0 rgba(15,0,104,0.06);
+}
+
+.v-align-middle {
+    position:relative;    transform:translateY(-50%);
+    top:50%;
+}
+
+.nm {
+    margin-top: -4rem;
+}
+
+
+/* BUTTONS */
+
+.btn-primary, .btn-secondary, .btn-warning, .btn-success, .btn-danger, .btn-info, .btn-light, .btn-dark, .btn-link {
+    padding: .75em 1.25em;
+    border-width: 0px;
+    border-radius: 20rem;
+    transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+    background-color: #33BEF2;
+    -webkit-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
+    -moz-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
+    box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
+    transition: all 0.5s ease;
 }
