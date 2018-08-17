@@ -1,0 +1,29 @@
+/* MEDIA Q */
+
+@media (max-width: 576px) { 
+    h1.display-3 {font-size: 2.5rem;}
+}
+
+
+/* SHAPE MASK */
+
+.angle-mask {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+
+}
+
+
+/* COLOR */
+
+.bg-primary {
+    background-color: #3CC2BB;
+}
+
+
+
+/* CUSTOM STYLES */
+
+.shadow-large {
+    box-shadow: 0 16px 16px 0 rgba(15,0,104,0.06);
+}
