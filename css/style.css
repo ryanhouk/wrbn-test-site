@@ -16,6 +16,18 @@
     text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
+.text-brand {
+    color: #3CC2BB;
+}
+
+.text-brand-dark {
+    color: #302C48;
+}
+
+.text-secondary {
+    color: #9795A3;
+}
+
 
 /* MISC */
 .angle {
@@ -39,7 +51,8 @@
 
 
 /* BUTTONS */
-.btn-primary, .btn-secondary, .btn-warning, .btn-success, .btn-danger, .btn-info, .btn-light, .btn-dark, .btn-link {
+.btn-primary {
+    background-color: #3CC2BB;
     padding: .75em 1.25em;
     border-width: 0px;
     border-radius: 20rem;
@@ -47,7 +60,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #33BEF2;
+    background-color: #28D1AE;
     -webkit-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
     -moz-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
     box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
