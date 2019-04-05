@@ -6,12 +6,16 @@
     border-width: 0px;
     border-radius: 20rem;
     transition: all 0.5s ease;
+
+    &:hover {
+        background-color: #28D1AE;
+        -webkit-box-shadow: 0px 13px 39px 0px rgba(0, 174, 239, 0.3);
+        -moz-box-shadow: 0px 13px 39px 0px rgba(0, 174, 239, 0.3);
+        box-shadow: 0px 13px 39px 0px rgba(0, 174, 239, 0.3);
+        transition: all 0.5s ease;
+    }
 }
 
-.btn-primary:hover {
-    background-color: #28D1AE;
-    -webkit-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
-    -moz-box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
-    box-shadow: 0px 13px 39px 0px rgba(0,174,239,0.3);
-    transition: all 0.5s ease;
+.btn-outline-secondary {
+    
 }
