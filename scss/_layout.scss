@@ -1,0 +1,20 @@
+// CUSTOM LAYOUT MODS
+
+.angle {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.box-shadow {
+    box-shadow: 0 16px 24px 0 rgba(15,0,104,0.06);
+}
+
+.v-align-middle {
+    position:relative;
+    transform:translateY(-50%);
+    top:50%;
+}
+
+.nm {
+    margin-top: -4rem;
+}
