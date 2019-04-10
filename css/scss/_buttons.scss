@@ -1,8 +1,11 @@
 // BS OVERRIDES
 
+.btn {
+    padding: .75rem 1.75rem;
+}
+
 .btn-primary {
     background-color: #3CC2BB;
-    padding: .75em 1.25em;
     border-width: 0px;
     border-radius: 20rem;
     transition: all 0.5s ease;
@@ -20,7 +23,6 @@
 
 .btn-light {
     background-color: $brand-light;
-    padding: .75rem 1rem;
     border-width: 1;
     border-color: $brand-medium;
     background: white;

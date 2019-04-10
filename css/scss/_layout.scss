@@ -1,8 +1,8 @@
 // CUSTOM LAYOUT MODS
 
 .angle {
--webkit-clip-path: circle(84.7% at 50% 0);
-clip-path: circle(84.7% at 50% 0);
+    -webkit-clip-path: circle(84.7% at 50% 0);
+    clip-path: circle(84.7% at 50% 0);
 }
 
 .box-shadow {
@@ -19,6 +19,10 @@ clip-path: circle(84.7% at 50% 0);
     margin-top: -4rem;
 }
 
+.mb-ng {
+    margin-bottom: -6rem;
+}
+
 .pattern {
     width: 100%;
     background-image: url('img/retail.png');
@@ -29,5 +33,10 @@ clip-path: circle(84.7% at 50% 0);
 .banner-img {
     background: url('../img/retail.png');
     background-size: 40%;
+}
 
+// SHADOWS
+
+.diffuse-shadow {
+    box-shadow: 0px 16px 30px 0px rgba(48, 44, 72, 0.12);
 }
