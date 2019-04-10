@@ -23,15 +23,15 @@
 
 .btn-light {
     background-color: $brand-light;
-    border-width: 1;
-    border-color: $brand-medium;
+//    border-width: 1;
+//    border-color: $brand-medium;
     background: white;
     border-radius: 20rem;
     color: $brand-dark;
 
     &:hover {
-        background-color: $brand-primary;
-        border-color: $brand-primary;
-        color: white;
+        background-color: $brand-pink;
+//        border-color: $brand-primary;
+//        color: $brand-dark;
     }
 }
