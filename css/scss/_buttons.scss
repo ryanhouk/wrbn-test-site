@@ -5,7 +5,7 @@
 }
 
 .btn-primary {
-    background-color: #3CC2BB;
+    background-color: $brand-primary;
     border-width: 0px;
     border-radius: 20rem;
     transition: all 0.5s ease;
@@ -37,9 +37,15 @@
 }
 
 .btn-extension {
-    color: white;
+    color: $brand-dark;
+    border: solid 2px $brand-primary;
     font-size: 1.25rem;
-    background-color: $brand-dark;
+    background-color: white;
     padding: 1rem 2rem;
     border-radius: 5rem;
+    
+    &:hover {
+        color: white;
+        background-color: $brand-primary;
+    }
 }
